@@ -1,0 +1,54 @@
+
+
+/*big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    #slider-container{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+/*Small tablet to big tablet from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    #slider-container{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+}
+
+/*Small phones to small tablets* from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    #slider-container{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .dot-navigation{
+        width: 10px;
+        height: 10px;
+    }
+
+    .play-pause-btn{
+        border-width: 25px 0px 25px 40px;
+    }
+    .play-pause-btn.pause{
+        width: 35px;
+        height: 50px;
+        border-width: 0px 0px 0px 40px;
+
+    }
+}
+
+/* Small phones*/
+@media only screen and (max-width: 480px) {
+    .play-pause-btn{
+        border-width: 25px 0px 25px 30px;
+        left: 0%;
+    }
+    .play-pause-btn.pause{
+        width: 30px;
+        height: 50px;
+        border-width: 0px 0px 0px 30px;
+
+    }
+}
