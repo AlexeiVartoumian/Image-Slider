@@ -1,9 +1,9 @@
 # Image-Slider
 Updated Image slider
 This Image-slider contains :
-play/pause functionality
-arrow-keys navigation
-dot-navigation
+1.play/pause functionality
+2.arrow-keys navigation
+3.dot-navigation
 
 
 written in vanilla Javascript html and Css.
